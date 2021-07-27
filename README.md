@@ -1,0 +1,2 @@
+# bankTech
+react native prototipe
