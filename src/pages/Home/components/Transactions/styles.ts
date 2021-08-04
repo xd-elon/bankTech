@@ -13,6 +13,23 @@ export const styles = StyleSheet.create({
         borderRadius: 7,
         backgroundColor: '#424242',
         marginRight: 10,
+
+    },
+    cardTransactionBox: {
+        marginLeft: 15,
+        marginTop: 12,
+
+    },
+    cardTransactionText: {
+        marginTop: 5,
+        color: '#efefef',
+        fontSize: 13,
+        fontWeight: '800',
+    },
+    cardTransactionTextDesc: {
+        marginTop: 5,
+        color: '#818181',
+        fontSize: 10,
     }
 
 })

@@ -9,10 +9,46 @@ export const styles = StyleSheet.create({
     },
     card: {
         height: 180,
-        width: 355,
+        width: 360,
         borderRadius: 9,
         backgroundColor: '#2A62FF',
         marginRight: 5,
+    }, 
+    cardNumbox: {
+        marginTop: 15,
+        flexDirection: 'row',
+        justifyContent: 'flex-end',
+    },
+    cardNum: {
+        color: '#efefef',
+        fontSize: 19,
+        fontWeight: 'bold',
+        marginRight: 19,
+    },
+    cardIconNameBox: {
+        //backgroundColor: '#BABABA',
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginLeft: 25,
+    },
+    cardIconNameText: {
+        marginLeft: 15,
+        color: '#efefef',
+        fontSize: 18,
+    },
+    cardLimitBox: {
+        flexDirection: 'column',
+        marginTop: 30,
+        marginLeft: 25,
+    },
+    cardLimiteText: {
+        color: '#BABABA',
+    },
+    cardLimiteValue: {
+        marginTop: 5,
+        color: '#efefef',
+        fontSize: 25,
+        fontWeight: 'bold',
     }
 
 })

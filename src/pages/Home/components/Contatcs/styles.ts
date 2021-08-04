@@ -8,8 +8,8 @@ export const styles = StyleSheet.create({
         marginLeft: 16,
     },
     cardContacs: {
-        height: 60,
-        width: 60,
+        height: 55,
+        width: 55,
         borderRadius: 40,
         backgroundColor: '#424242',
         marginRight: 10,

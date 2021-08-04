@@ -19,7 +19,6 @@ export const styles = StyleSheet.create({
 
 
     cardContent: {
-        paddingTop: 15,
         height: 237,
         flexDirection: 'column',
     },
@@ -43,7 +42,6 @@ export const styles = StyleSheet.create({
 
 
     cardTransactionContent: {
-        paddingTop: 15,
         height: 136,
         flexDirection: 'column',
     },
@@ -55,8 +53,8 @@ export const styles = StyleSheet.create({
         marginRight: 15,
     },
 
+    
     cardContactConctent: {
-        paddingTop: 15,
         height: 150,
         flexDirection: 'column',
     },
