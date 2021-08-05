@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
         fontWeight: '800',
     },
     cardTransactionTextDesc: {
-        marginTop: 5,
+        marginTop: 3,
         color: '#818181',
         fontSize: 10,
     }

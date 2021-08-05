@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ScrollView, View } from 'react-native';
+import { Image, ScrollView, View } from 'react-native';
 
 import { styles } from './styles';
 
@@ -16,24 +16,7 @@ export const Contatcs = () => {
      >
 
       <View style={styles.cardContacs}>
-      </View>
-
-      <View style={styles.cardContacs}>
-      </View>
-
-      <View style={styles.cardContacs}>
-      </View>
-
-      <View style={styles.cardContacs}>
-      </View>
-
-      <View style={styles.cardContacs}>
-      </View>
-
-      <View style={styles.cardContacs}>
-      </View>
-
-      <View style={styles.cardContacs}>
+        
       </View>
 
 

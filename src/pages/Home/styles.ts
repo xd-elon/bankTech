@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     container: {
         backgroundColor: '#212121',
-        height: 800,
+        height: 900,
         alignItems: 'center',   
     },
     content: {
@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
 
 
     cardContent: {
-        height: 237,
+        height: 230,
         flexDirection: 'column',
     },
     cardContentText: {
@@ -31,22 +31,22 @@ export const styles = StyleSheet.create({
     },
     cardBarTextSmall: {
         color: '#EFEFEF',
-        fontSize: 19,
+        fontSize: 17,
         fontWeight: 'bold',
     },
     cardBarTextLittle: {
         color: '#2A62FF',
-        fontSize: 15,
+        fontSize: 13,
         fontWeight: '300',
     },
 
 
     cardTransactionContent: {
-        height: 136,
+        height: 125,
         flexDirection: 'column',
     },
     cardTransactionContentText: {
-        height: 40,
+        height: 35,
         flexDirection: 'row',
         justifyContent: 'space-between',
         marginLeft: 15,
@@ -55,7 +55,7 @@ export const styles = StyleSheet.create({
 
     
     cardContactConctent: {
-        height: 150,
+        //height: 140,
         flexDirection: 'column',
     },
     cardContactContentText: {
@@ -65,4 +65,12 @@ export const styles = StyleSheet.create({
         marginLeft: 15,
         marginRight: 15,
     },
+
+
+    absoluteBox: {
+        //paddingBottom: 10,
+        top: 655,
+        position: 'absolute',
+        
+    }
 })

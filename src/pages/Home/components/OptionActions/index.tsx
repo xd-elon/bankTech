@@ -1,14 +1,18 @@
 import React from 'react';
 
-import { ScrollView, View, Text } from 'react-native';
+import { ScrollView, View, Text, TouchableHighlight } from 'react-native';
 
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import IconHand from 'react-native-vector-icons/FontAwesome';
+import IconUser from 'react-native-vector-icons/Feather'
+import IconTicket from 'react-native-vector-icons/Entypo'
 
 import { styles } from './styles';
+import Pix from './assets/pix.svg';
+
 
 Icon.loadFont();
-IconHand.loadFont();
+
 
 export const OptionActions = () => {
 
@@ -20,40 +24,50 @@ export const OptionActions = () => {
       pagingEnabled={true}
      >
 
-      <View style={styles.actionAlignBox}>
-        <View style={styles.actionsBarImageBox}>
-          <Icon name="barcode-scan" size={30} color="#355a9e" />
+      <TouchableHighlight>
+        <View style={styles.actionAlignBox}>
+          <View style={styles.actionsBarImageBox}>
+            <IconUser name="users" size={30} color="#355a9e" />
+          </View>
+          <Text style={styles.actionsBarText}>Pagar{"\n"}pessoas</Text>
         </View>
-        <Text style={styles.actionsBarText}>Pagar{"\n"}pessoas</Text>
-      </View>
+      </TouchableHighlight>
 
-      <View style={styles.actionAlignBox}>
-        <View style={styles.actionsBarImageBox}>
-          <Icon name="barcode-scan" size={30} color="#387F76" />
+     <TouchableHighlight>
+        <View style={styles.actionAlignBox}>
+          <View style={styles.actionsBarImageBox}>
+            <Pix width={30} height={30} color="#387F76" />
+          </View>
+          <Text style={styles.actionsBarText}>Pix</Text>
         </View>
-        <Text style={styles.actionsBarText}>Pix</Text>
-      </View>
+      </TouchableHighlight>
 
-      <View style={styles.actionAlignBox}>
-        <View style={styles.actionsBarImageBox}>
-          <IconHand name="handshake-o" size={30} color="#AF5947" />
+      <TouchableHighlight>
+        <View style={styles.actionAlignBox}>
+          <View style={styles.actionsBarImageBox}>
+            <IconHand name="handshake-o" size={30} color="#AF5947" />
+          </View>
+          <Text style={styles.actionsBarText}>Cobrar</Text>
         </View>
-        <Text style={styles.actionsBarText}>Cobrar</Text>
-      </View>
+      </TouchableHighlight>
 
-      <View style={styles.actionAlignBox}>
-        <View style={styles.actionsBarImageBox}>
-          <Icon name="barcode-scan" size={30} color="#8F3050" />
+      <TouchableHighlight>
+        <View style={styles.actionAlignBox}>
+          <View style={styles.actionsBarImageBox}>
+            <Icon name="barcode-scan" size={30} color="#8F3050" />
+          </View>
+          <Text style={styles.actionsBarText}>Pagar{"\n"}conta</Text>
         </View>
-        <Text style={styles.actionsBarText}>Pagar{"\n"}conta</Text>
-      </View>
+      </TouchableHighlight>
 
-      <View style={styles.actionAlignBox}>
-        <View style={styles.actionsBarImageBox}>
-          <Icon name="barcode-scan" size={30} color="#b33e38" />
+      <TouchableHighlight>
+        <View style={styles.actionAlignBox}>
+          <View style={styles.actionsBarImageBox}>
+            <IconTicket name="v-card" size={30} color="#b33e38" />
+          </View>
+          <Text style={styles.actionsBarText}>Cartão de{"\n"}trasporte</Text>
         </View>
-        <Text style={styles.actionsBarText}>Cartão de{"\n"}trasporte</Text>
-      </View>
+      </TouchableHighlight>
 
     </ScrollView>
    );
