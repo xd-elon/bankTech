@@ -3,21 +3,18 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     cardBar: {
         width: 380,
-        height: 300,
         marginLeft: 16,
-        //backgroundColor: '#BABABA',
     },
     card: {
         height: 180,
         width: 360,
-        borderRadius: 9,
-        backgroundColor: '#2A62FF',
         marginRight: 5,
     }, 
     cardNumbox: {
-        marginTop: 15,
+        marginTop: 12,
         flexDirection: 'row',
         justifyContent: 'flex-end',
+        
     },
     cardNum: {
         color: '#efefef',
@@ -26,29 +23,29 @@ export const styles = StyleSheet.create({
         marginRight: 19,
     },
     cardIconNameBox: {
-        //backgroundColor: '#BABABA',
         flexDirection: 'row',
         alignItems: 'center',
-        marginLeft: 25,
+        marginLeft: 5,
     },
     cardIconNameText: {
-        marginLeft: 15,
         color: '#efefef',
         fontSize: 18,
     },
     cardLimitBox: {
         flexDirection: 'column',
-        marginTop: 30,
         marginLeft: 25,
     },
     cardLimiteText: {
         color: '#BABABA',
     },
     cardLimiteValue: {
-        marginTop: 5,
+        marginTop: 2,
         color: '#efefef',
         fontSize: 25,
         fontWeight: 'bold',
+    },
+    backImage: {
+        height: 180,
     }
 
 })

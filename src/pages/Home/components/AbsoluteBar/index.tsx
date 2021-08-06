@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Text, View, TouchableOpacity} from 'react-native';
+import { Text, View, TouchableOpacity, Image} from 'react-native';
 
 import Icon from 'react-native-vector-icons/Entypo';
 import IconHome from 'react-native-vector-icons/Feather';
@@ -28,6 +28,7 @@ export const AbsoluteBar = () => {
       </TouchableOpacity>
 
       <View style={styles.perfilButton}>
+        <Image source={require('./assets/perfil.png')} style={styles.image}/>
       </View>
         
     </View>

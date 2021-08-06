@@ -35,11 +35,15 @@ export const styles = StyleSheet.create({
         borderRadius: 40,
         
     },
-
     absoluteText: {
         color: '#f1f1f1',
         marginRight: 5,
         
+    },
+    image: {
+        borderRadius: 40,
+        height: 35,
+        width: 35,
     }
 
 
