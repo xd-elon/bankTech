@@ -29,7 +29,7 @@ export const Home = () => {
           <Text style={styles.cardBarTextSmall}>Meus cartões</Text>
           <Text style={styles.cardBarTextLittle}>Ver todos</Text>
         </View>
-        <Mycards navigation={Home} />
+        <Mycards />
       </View>
 
       <View style={styles.cardTransactionContent}>

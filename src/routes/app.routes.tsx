@@ -14,7 +14,7 @@ const {Navigator, Screen} = createStackNavigator<RootStackParamList>();
 
 export function AppRoutes() {
   return (
-    <Navigator screenOptions={{headerShown: false}}>
+    <Navigator initialRouteName="Home" screenOptions={{headerShown: false}}>
       <Screen name="Home" component={Home} />
       <Screen name="Card" component={Card} />
     </Navigator>
