@@ -28,7 +28,7 @@ export const AmountView = () => {
   ) : (
     <View style={styles.amountBar}>
       <Icon name="qrcode-scan" size={35} color="#efefef" />
-      <Text style={styles.amountBarText}>*******</Text>
+      <Text style={styles.amountBarTextHiden}>°°°°°°°°</Text>
       <TouchableOpacity onPress={handleVisibleClick}>
         <IconEye name="eye-off" size={35} color="#9e9e9e" />
       </TouchableOpacity>
