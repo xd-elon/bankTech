@@ -65,7 +65,8 @@ export const styles = StyleSheet.create({
 
   absoluteBox: {
     //paddingBottom: 10,
-    top: 655,
+    height: 20,
+    top: 720,
     position: 'absolute',
   },
 });
